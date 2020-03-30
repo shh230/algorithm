@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DF108F282432389700CF16A3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DF108F272432389700CF16A3 /* main.c */; };
 		DF108F302432391C00CF16A3 /* reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = DF108F2F2432391C00CF16A3 /* reverse.c */; };
+		DF108F3324323D2600CF16A3 /* merge.c in Sources */ = {isa = PBXBuildFile; fileRef = DF108F3224323D2500CF16A3 /* merge.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		DF108F272432389700CF16A3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DF108F2E2432391C00CF16A3 /* reverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reverse.h; sourceTree = "<group>"; };
 		DF108F2F2432391C00CF16A3 /* reverse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reverse.c; sourceTree = "<group>"; };
+		DF108F3124323D2500CF16A3 /* merge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = merge.h; sourceTree = "<group>"; };
+		DF108F3224323D2500CF16A3 /* merge.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = merge.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				DF108F272432389700CF16A3 /* main.c */,
 				DF108F2E2432391C00CF16A3 /* reverse.h */,
 				DF108F2F2432391C00CF16A3 /* reverse.c */,
+				DF108F3124323D2500CF16A3 /* merge.h */,
+				DF108F3224323D2500CF16A3 /* merge.c */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF108F3324323D2600CF16A3 /* merge.c in Sources */,
 				DF108F302432391C00CF16A3 /* reverse.c in Sources */,
 				DF108F282432389700CF16A3 /* main.c in Sources */,
 			);
